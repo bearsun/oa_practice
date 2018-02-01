@@ -1,12 +1,5 @@
 
-# coding: utf-8
-
-# In[1]:
-
 import numpy as np
-
-
-# In[2]:
 
 def tetris(w,h,pieces):
     rect = np.zeros((h,w))
@@ -33,9 +26,6 @@ def tetris(w,h,pieces):
         return last
     else:
         return -1
-
-
-# In[3]:
 
 w,h = 6,6
 pieces=[

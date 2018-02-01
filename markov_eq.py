@@ -1,12 +1,5 @@
 
-# coding: utf-8
-
-# In[32]:
-
 import numpy as np
-
-
-# In[44]:
 
 def markov_eq(share, trans):
     share = share.T
@@ -18,9 +11,6 @@ def markov_eq(share, trans):
         share = newshare
         n += 1
     return np.array([0,0])
-
-
-# In[46]:
 
 share = np.array([.4,.6])
 switch_prob = np.array([[.8,.2],[.1,.9]])
